@@ -3,6 +3,7 @@
     opacity: 0.4;
 }
 
+/* Footer fixed to bottom */
 html, body {
     height: 100%;
   }
@@ -26,4 +27,18 @@ html, body {
 
 .well {
   background-color: rgba(52, 58, 64, 0.5);
+}
+
+
+/* Modal fixed height */
+.modal-dialog,
+.modal-content {
+    /* 80% of window height */
+    height: 95%;
+}
+
+.modal-body {
+    /* 100% = dialog height, 120px = header + footer */
+    max-height: calc(100% - 120px);
+    overflow-y: scroll;
 }
