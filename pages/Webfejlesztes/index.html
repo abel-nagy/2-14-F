@@ -131,7 +131,12 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">&copy; Nagy Ábel 2020</p>
+      <p class="m-0 text-center text-white">&copy; Nagy Ábel <span id="c_year"></span></p>
+
+      <script>
+        document.getElementById("c_year").innerHTML = new Date().getFullYear();
+      </script>
+
     </div>
     <!-- /.container -->
   </footer>
