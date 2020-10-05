@@ -43,20 +43,6 @@ html, body {
     overflow-y: scroll;
 }
 
-@media (max-width: 576px) {
-  .pic {
-    max-width: 100%;
-  }
-}
-
-@media (min-width: 576px) {
-  .pic {
-    max-width: 45%;
-  }
-}
-
-
-
 @media (min-width: 576px) {
   .pic {
     max-width: 100%;
