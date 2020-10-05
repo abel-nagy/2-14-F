@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
+<defs>
+<font id="vs-code" horiz-adv-x="1000" >
+<font-face font-family="vs-code" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="vs-code" unicode="&#xe800;" d="M965 742l-206 99c-24 12-53 7-71-12l-675-615c-18-16-18-45 0-61l55-50c15-14 37-15 53-3l813 616c27 21 66 2 66-33v3c0 24-14 46-35 56z m0-784l-206-99c-24-12-53-7-71 12l-675 615c-18 16-18 45 0 62l55 50c15 13 37 14 53 2l813-616c27-21 66-2 66 33v-3c0-24-14-46-35-56z m-206-99c-24-12-53-7-71 12 23-23 62-7 62 26v906c0 33-39 49-62 26 18 19 47 24 71 12l206-99c21-10 35-32 35-56v-672c0-24-14-46-35-56l-206-99z m-50-2c15-6 33-6 49 2l206 99c22 10 35 32 35 56v672c0 24-13 46-35 56l-206 99c-21 10-45 8-63-5-3-2-6-4-8-7l-394-359-172 130c-16 12-38 11-53-2l-55-50c-18-17-18-46 0-62l149-136-149-136c-18-16-18-45 0-61l55-50c15-14 37-15 53-3l172 130 394-359c6-6 14-11 22-14z m41 720l-299-227 299-227v454z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
