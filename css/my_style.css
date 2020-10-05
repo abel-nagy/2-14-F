@@ -42,3 +42,41 @@ html, body {
     max-height: calc(100% - 120px);
     overflow-y: scroll;
 }
+
+@media (max-width: 576px) {
+  .pic {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  .pic {
+    max-width: 45%;
+  }
+}
+
+
+
+@media (min-width: 576px) {
+  .pic {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .pic {
+    max-width: 85%;
+  }
+}
+
+@media (min-width: 992px) {
+  .pic {
+    max-width: 65%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pic {
+    max-width: 45%;
+  }
+}
