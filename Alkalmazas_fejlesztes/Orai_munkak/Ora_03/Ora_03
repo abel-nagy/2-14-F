@@ -1,0 +1,12 @@
+
+public class Ora_03 {
+	
+	/*= Main ============================================================================*/
+	
+	public static void main(String[] args) {
+		
+		Autok autok = new Autok("autok.txt", 18, "\t");
+		
+	}
+
+}
