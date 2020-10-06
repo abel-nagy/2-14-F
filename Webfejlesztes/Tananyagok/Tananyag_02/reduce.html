@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<title>JS reduce fuggveny</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<script>
+			//osszegzes, min, max kereses:
+			"use strict"
+			const szamok=[1,3,4,5,33,22,6,10,-1,24,8];
+			console.log(szamok);
+			
+			//szamitsuk ki a szamok osszeget:
+			const osszeg=szamok.reduce( (s,e)=>s+e,0 )
+			console.log("osszeg="+osszeg)
+			
+			//keressu meg a legkisebb szamot:
+			const legkisebb=szamok.reduce((min,e)=> e<min ? e : min ,szamok[0])
+			console.log("min="+legkisebb)
+			
+			
+		</script>
+</html>

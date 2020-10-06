@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<title>JS nyil fuggvenyek</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<script>
+			"use strict"
+			const maxFg=(a,b)=> a>b ? a : b
+			
+			let a=5
+			let b=10
+			console.log("sajat fg:"+maxFg(a,b))
+			
+			console.log("Math osztaly:"+Math.max(a,b))
+			
+			const minFg=(a,b)=> a<b ? a : b
+			
+			console.log(minFg(a,b))
+			
+			let nev1="birsalma"
+			let nev2="korte"
+			console.log(maxFg(nev1,nev2))//abc sorrendet nez
+			
+							
+		</script>
+	</body>
+</html>

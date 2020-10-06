@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<title>JS map fuggveny</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<ul id="lista"></ul>
+	
+		<script>
+			
+			"use strict"
+			const nevek=["alma","korte","szilva","barack","banan","narancs","ananasz"]
+			const ujTomb=nevek.map( e=>"<li>"+e+"</li> ")
+			console.log(ujTomb)
+			console.log(ujTomb.join())
+			console.log(ujTomb.join(''))
+			
+			document.getElementById("lista").innerHTML=ujTomb.join('')
+				
+		</script>
+	</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<title>Alap HTML</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<script>
+		
+			//const osszeg=(a,b)=>a+b;
+			const osszeg=(a,b=0)=>a+b;
+			
+			console.log(osszeg(10,20));
+			console.log(osszeg(10));
+			
+			//rekurzio:
+			const fac = (n) => n>0 ? n*fac(n-1) : 1;
+			
+			console.log("5!="+fac(5));
+			
+			//irjunk fg-t a paros vagy paratlan szamok megallapitasara:
+			const paritas=n=>n%2===0? "paros": "paratlan";
+			a=20
+			b=11
+			console.log(paritas(a))
+			console.log(paritas(b))
+		</script>
+	</body>
+</html>

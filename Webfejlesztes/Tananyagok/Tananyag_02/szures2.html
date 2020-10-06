@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<title>Kereses stringekben</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<script>
+			"use strict"
+			const szamok=[1,3,4,5,33,22,6,10,24,8,102,150];
+			console.log(szamok);
+//csak paratlan szamok:
+			console.log( szamok.filter(e=>e%2) )
+			//ugyanaz mint:
+			console.log( szamok.filter(function(e){
+										return e%2}) )
+			
+			
+//szures : csak a paros index alatt levo szamok kellenek :
+			const parosIndexTomb=szamok.filter((e,i)=>i%2===0)
+			console.log("a paros index alatti elemek a tombbol:"+parosIndexTomb)
+			
+//szures : csak a paros szamok kellenek egy uj tombbe es az eredeti tombot bovitsuk a duplajara, uh minden uj elem a reginel 1-el nagyobb legyen :		
+			const parosTomb=szamok.filter((e,i,arr)=>{
+						arr.push(e+1)
+						return e%2===0 
+						})
+			console.log("a paros szamok tombje:"+parosTomb)
+			console.log("az eredeti tomb kibovitve:"+szamok);
+			
+			
+			
+//kereses stringekben:
+		const nevek=["alma","korte","szilva","barack","banan","narancs","ananasz"]
+		
+		console.log(nevek[0])
+		console.log(nevek[0].indexOf("alm")	) 	//0
+		console.log(nevek[0].indexOf("almr"))	//-1
+		console.log("banan? "+nevek.indexOf("banan"));
+		
+		//keressuk azokat az elemeket amelyekben benne van az "ar" :
+		console.log("tartalmazzak az 'ar' stringet:"+ nevek.filter(e=>e.indexOf("ar")!==-1) )
+		
+		//irjunk egy fuggvenyt amit altaanosan hasznalhatunk barmilyen kifejezes, szoveg keresesere:	
+		const fgKeres=(tomb,mit)=>tomb.filter(e=>e.indexOf(mit)!==-1)
+		
+		const diakok=["Marci","Gyula","Kata","Eva","Katalin","Katika"]
+		console.log(fgKeres(diakok,"Kat"))
+		
+		
+		</script>
+</html>

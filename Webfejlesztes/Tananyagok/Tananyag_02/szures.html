@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<title>Alap HTML</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<script>
+			//szures hagyomanyosan:
+			"use strict"
+			const szamok=[1,3,4,5,33,22,6,10,24,8];
+			console.log(szamok);
+			
+			function myFilter(tomb){
+				const parosTomb=[];
+				for(let elem of tomb){
+					if(elem%2==0)
+						parosTomb.push(elem);
+				}
+				return parosTomb;
+			}
+			
+			const parosTomb=myFfilter(szamok);
+			console.log("parosTomb= "+parosTomb+"  Tipusa:"+typeof(parosTomb));	//kiiratas string osszefuzessel
+			console.log(`parosTomb= ${parosTomb} Tipusa: ${typeof(parosTomb)}`);	//kiiratas back-tick hasznalataval
+			
+		//helyette:
+		const parosArr=szamok.filter((e)=>e%2===0);
+		console.log(`parosArr= ${parosArr}, tipusa: ${typeof(parosArr)}`);
+		
+		//feladat irju ki az 5-nel nagyobbakat egy uj tombbe(tomb1), majd a 10-nel nagyobbakat(tomb2) is:
+		const tomb1=filter(szamok,(e)=>e>5);
+		const tomb2=filter(szamok,(e)=>e>10);
+		console.log(tomb1);
+		console.log(tomb2);
+		
+		//helyette:
+		const fgNagyobbak=(tomb,n)=>tomb.filter(e=>e>n);
+		console.log(">5="+fgNagyobbak(szamok,5));
+		console.log(">10="+fgNagyobbak(szamok,10));
+		
+		
+		
+		</script>
+	
+	</body>
+</html>

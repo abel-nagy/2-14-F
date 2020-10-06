@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<title>JS some/every & find/findIndex fuggvenyek</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<script>
+			"use strict"
+			const szamok=[1,3,4,5,33,22,6,10,-1,24,8];
+			console.log(szamok);
+			
+			//true vagy false etekkel ter vissza a fuggveny: 
+			//van- 10-nel kisebb ertek a tomb elemei kozt?
+			console.log( szamok.some( e=>e<10 ) )
+			
+			//minden ertek nagyobb-e mint 20?
+			console.log( szamok.every( e=>e>20 ) )
+			
+			//benne van-e a tombben a 10-es?
+			console.log( szamok.find(e=>e===10)  ) //visszateriti a szamot
+			console.log( szamok.find(e=>e===10000)  ) //undefined
+			
+			//a 10-es milyen indexen talahato?
+			console.log( szamok.findIndex(e=>e===10)  ) //visszateriti az index ereteket
+			console.log( szamok.findIndex(e=>e===10000)  ) // -1 -et terit vissza ha nem talalja
+			
+		</script>
+</html>
