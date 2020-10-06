@@ -1,0 +1,40 @@
+
+ * help functions
+ 
+ * help numeric functions (int, float, double)
+
+   abs(szám) - abszolútérték
+   floor(szám) - lefelé kerekítés: select floor(1,7); -> 1
+   ceil(szám) - felfelé kerekítés: select floor(1,2); -> 2
+   round(szám,tizedes) - kerekítés megadott tizedesjegyre
+   szám div osztó - osztás egész része
+   szám mod osztó - osztás maradéka
+   bin(szám) - konvertálás kettes számrendszerbe, mint szöveg
+   hex(szám) - konvertálás tizenhatos számrendszerbe, mint szöveg
+   conv(szám,mibõl,mibe) - számrendszer konverzió: select conv(13,10,2); -> 1101
+   pow(szám,hatvány) - hatványozás
+   sqrt(szám) - négyzetgyök
+   rand() - 0<= véletlen szám <1 -> floor(rand()*(vége-eleje+1))+eleje
+ 
+ * help string functions (char, varchar)
+ 
+   left(szöveg,hányat) - szövegrész balról
+   right(szöveg,hányat) - szövegrész jobbról
+   mid(szöveg,honnan,hányat) - szövegrész középrõl
+   lenght(szöveg) - szöveg hossza
+   concat(szöveg1,szöveg2,...) - szövegek összefûzése
+   lower(szöveg) - kisbetûssé alakítja
+   upper(szöveg) - nagybetûssé alakítja
+ 
+ * help date and time functions (date, time, datetime, timestamp)
+ 
+   curdate() - mai dátum (éééé-hh-nn)
+   curtime() - aktuális idõpont (óó:pp:mm)
+   now() - aktuális dátum és idõ (éééé-hh-nn óó:pp:mm)
+   
+   year(dátum) - év
+   month(dátum) - hónap
+   day(dátum) - nap
+   hour(idõ) - óra
+   minute(idõ) - perc
+   second(idõ) - másodperc
