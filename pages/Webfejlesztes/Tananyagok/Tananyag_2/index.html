@@ -1,294 +1,408 @@
 <!DOCTYPE html>
 
 <html lang="hu">
-<head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Esti Szoftverfejlesztői OKJ tanfolyamon kapott feladatok és anyagok tárhelye">
-    <meta name="author" content="Ábel 'sens1tiv' Nagy">
-    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, Font Awesome, Github, Pages, 2/14/F, OKJ, Szoftverfejlesztő, Esti, Házi Feladat, Tananyag, Órai, Munka, Anyag">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Esti Szoftverfejlesztői OKJ tanfolyamon kapott feladatok és anyagok tárhelye"
+    />
+    <meta name="author" content="Ábel 'sens1tiv' Nagy" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Bootstrap, Font Awesome, Github, Pages, 2/14/F, OKJ, Szoftverfejlesztő, Esti, Házi Feladat, Tananyag, Órai, Munka, Anyag"
+    />
 
     <title>JavaScript - 1 | 2/14/F</title>
-    <link href="../../../../media/fallout_boy.png" rel="shortcut icon" type="image/x-icon">
+    <link
+      href="../../../../media/fallout_boy.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
 
     <!-- Freelancer Portfolio CSS -->
-    <link href="../../../../css/freelancer_portfolio.css" rel="stylesheet" >
+    <link href="../../../../css/freelancer_portfolio.css" rel="stylesheet" />
 
     <!-- Bootstrap core CSS -->
-    <link href="../../../../css/bootstrap.css" rel="stylesheet">
+    <link href="../../../../css/bootstrap.css" rel="stylesheet" />
     <!-- Bootstrap Reboot CSS -->
-    <link href="../../../../css/bootstrap-reboot.css" rel="stylesheet">
+    <link href="../../../../css/bootstrap-reboot.css" rel="stylesheet" />
 
     <!-- Font Awesome -->
-    <link href="../../../../FontAwesome/css/all.css" rel="stylesheet">
+    <link href="../../../../FontAwesome/css/all.css" rel="stylesheet" />
 
     <!-- Custom styles for this template -->
-    <link href="../../../../css/shop-homepage.css" rel="stylesheet">
+    <link href="../../../../css/shop-homepage.css" rel="stylesheet" />
     <!-- My custom CSS addition-->
-    <link href="../../../../css/my_style.css" rel="stylesheet" >
+    <link href="../../../../css/my_style.css" rel="stylesheet" />
 
     <!-- Global site tag (gtag.js) - Google Analytics  -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179574571-2"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-179574571-2"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'UA-179574571-2');
+      gtag("config", "UA-179574571-2");
     </script>
 
     <!-- Highlight.js -->
-    <link rel="stylesheet" href="../../../../css/atom-one-dark-reasonable.css ">
+    <link
+      rel="stylesheet"
+      href="../../../../css/atom-one-dark-reasonable.css "
+    />
     <script src="../../../../js/highlight.pack.js"></script>
 
     <script src="../../../../js/my_script.js"></script>
-
-</head>
-<body class="shop">
-
-
-
+  </head>
+  <body class="shop">
     <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="../../../index.html"
+          ><i class="fas fa-home"></i
+        ></a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <a class="navbar-brand" href="../../../index.html"><i class="fas fa-home"></i></a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../index.html">Webfejlesztés
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../../Alkalmazas_fejlesztes/index.html">Alkalmazás Fejlesztés</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="../../Adatbazisok/index.html">Adatbázisok</a>
-                    </li>
-                    <li class="nav-item dropdown">
-
-                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdownPages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Más oldalak
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
-                        <a class="dropdown-item" href="https://sens1tiv.itch.io/" target="_blank"><i class="fab fa-itch-io"></i> Itch.IO</a>
-                        <a class="dropdown-item" href="https://www.twitch.tv/sens1tiv" target="_blank"><i class="fab fa-twitch"></i> Twitch</a>
-                        <a class="dropdown-item" href="https://www.youtube.com/channel/UCcy8ZDhXmTU94p-S0gv4S0w" target="_blank"><i class="fab fa-youtube"></i> Youtube</a>
-                        <a class="dropdown-item" href="https://www.patreon.com/sens1tiv" target="_blank"><i class="fab fa-patreon"></i> Patreon</a>
-                        <a class="dropdown-item" href="https://github.com/sens1tiv/" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                    </div>
-                    </li>
-
-                </ul>
-            </div>
-            
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html"
+                >Webfejlesztés
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../Alkalmazas_fejlesztes/index.html"
+                >Alkalmazás Fejlesztés</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="../../Adatbazisok/index.html"
+                >Adatbázisok</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href=""
+                id="navbarDropdownPages"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Más oldalak
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right"
+                aria-labelledby="navbarDropdownPages"
+              >
+                <a
+                  class="dropdown-item"
+                  href="https://sens1tiv.itch.io/"
+                  target="_blank"
+                  ><i class="fab fa-itch-io"></i> Itch.IO</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="https://www.twitch.tv/sens1tiv"
+                  target="_blank"
+                  ><i class="fab fa-twitch"></i> Twitch</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="https://www.youtube.com/channel/UCcy8ZDhXmTU94p-S0gv4S0w"
+                  target="_blank"
+                  ><i class="fab fa-youtube"></i> Youtube</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="https://www.patreon.com/sens1tiv"
+                  target="_blank"
+                  ><i class="fab fa-patreon"></i> Patreon</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="https://github.com/sens1tiv/"
+                  target="_blank"
+                  ><i class="fab fa-github"></i> GitHub</a
+                >
+              </div>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-
-  
-
-
-<div id="wrap">
-  
-    <!-- Page Content -->
-    <div class="container">
+    <div id="wrap">
+      <!-- Page Content -->
+      <div class="container">
         <div class="row">
-
-             <!-- Left Column-->
-             <div class="col-lg-3">
-
-                <h1 class="my-4 text-primary">Webfejlesztés</h1>
-                <div class="list-group">
-                    <a href="../index.html" class="list-group-item active">Tananyagok</a>
-                    <a href="../../Orai_munkak/index.html" class="list-group-item">Órai munkák</a>
-                    <a href="../../Hazi_Feladatok/index.html" class="list-group-item disabled">Házi Feladatok</a>
-                </div>
-
+          <!-- Left Column-->
+          <div class="col-lg-3">
+            <h1 class="my-4 text-primary">Webfejlesztés</h1>
+            <div class="list-group">
+              <a href="../index.html" class="list-group-item active"
+                >Tananyagok</a
+              >
+              <a href="../../Orai_munkak/index.html" class="list-group-item"
+                >Órai munkák</a
+              >
+              <a
+                href="../../Hazi_Feladatok/index.html"
+                class="list-group-item disabled"
+                >Házi Feladatok</a
+              >
             </div>
-            <!-- /.col-lg-3 -->
+          </div>
+          <!-- /.col-lg-3 -->
 
-            <!-- Right Column -->
-            <div class="col-lg-9 my-5">
-
-                <!-- Tantanyag Leírás -->
-                <div class="card mt-5">
-                    <div class="card-body">
-                        <h3 class="card-title mb-4 mt-1">JavaScript - 1</h3>
-                        <hr>
-                        <p class="card-text">JavaScript alapok bemutatása prezentációban és példákon keresztül.</p>
-                        <hr>
-                        <div class="py-1 my-0">
-                            <small class="text-muted">Szeptember 13.</small>
-                        </div>
-                    </div>
+          <!-- Right Column -->
+          <div class="col-lg-9 my-5">
+            <!-- Tantanyag Leírás -->
+            <div class="card mt-5">
+              <div class="card-body">
+                <h3 class="card-title mb-4 mt-1">JavaScript - 1</h3>
+                <hr />
+                <p class="card-text">
+                  JavaScript alapok bemutatása prezentációban és példákon
+                  keresztül.
+                </p>
+                <hr />
+                <div class="py-1 my-0">
+                  <small class="text-muted">Szeptember 13.</small>
                 </div>
-                <!-- /.card -->
-
-                <!-- Források, meg stuff -->
-                <div class="card card-outline-secondary my-4">
-                    <div class="card-header">
-                        Anyagok
-                    </div>
-                    <div class="card-body">
-                        <div class="container m-auto">
-                            <div class="row">
-
-                                <div class="col-sm col-lg mb-3">
-                                    <div class="card h-100 text-center m-auto">
-                                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#bemutatoModal">
-                                            <div class="card-body my-3">
-                                                <h4 class="text-light">Bemutató</h4>
-                                            </div>
-                                        </button>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm col-lg mb-3">
-                                    <div class="card h-100 text-center">
-                                        <div class="card-body">
-                                            <h4 class="text-primary mb-2">JavaScript Helye</h4>
-                                            <div class="row px-2 m-auto">
-                                                <button type="button" class="btn btn-secondary col mx-1" data-toggle="modal" data-target="#jsHelye_forras_Modal">
-                                                    Forrás
-                                                </button>
-                                                <button type="button" class="btn btn-success col mx-1" data-toggle="modal" data-target="#jsHelye_elo_Modal">
-                                                    Élőben
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="my-5"></div>
-                <!-- /.card -->
-
+              </div>
             </div>
-            <!-- /.col-lg-9 -->
+            <!-- /.card -->
 
-            <!-- Modals -->
-            <!-- PPT -->
-            <div class="modal fade" id="bemutatoModal" tabindex="-1" role="dialog" aria-labelledby="bemutatoModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="bemutatoModalLabel">Bemutató | JavaScript - 1</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
+            <!-- Források, meg stuff -->
+            <div class="card card-outline-secondary my-4">
+              <div class="card-header">Anyagok</div>
+              <div class="card-body">
+                <div class="container m-auto">
+                  <div class="row">
+                    <div class="col-sm col-lg mb-3">
+                      <div class="card h-100 text-center m-auto">
+                        <button
+                          type="button"
+                          class="btn btn-info"
+                          data-toggle="modal"
+                          data-target="#bemutatoModal"
+                        >
+                          <div class="card-body my-3">
+                            <h4 class="text-light">Bemutató</h4>
+                          </div>
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm col-lg mb-3">
+                      <div class="card h-100 text-center">
+                        <div class="card-body">
+                          <h4 class="text-primary mb-2">JavaScript Helye</h4>
+                          <div class="row px-2 m-auto">
+                            <button
+                              type="button"
+                              class="btn btn-secondary col mx-1"
+                              data-toggle="modal"
+                              data-target="#jsHelye_forras_Modal"
+                            >
+                              Forrás
                             </button>
-                        </div>
-                    <div class="modal-body">
-                        <iframe src="https://drive.google.com/file/d/1Ri_vrdqOsMsInDxugp5AdEdLppjmIIje/preview" width="100%" height="1000px"></iframe>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- jsHelye.html Forrás -->
-            <div class="modal fade" id="jsHelye_forras_Modal" tabindex="-1" role="dialog" aria-labelledby="jsHelye_forras_ModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="jsHelye_forras_ModalLabel">jsHelye.html</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
+                            <button
+                              type="button"
+                              class="btn btn-success col mx-1"
+                              data-toggle="modal"
+                              data-target="#jsHelye_elo_Modal"
+                            >
+                              Élőben
                             </button>
+                          </div>
                         </div>
-                        <div class="modal-body">
-                            <pre>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="my-5"></div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col-lg-9 -->
+
+          <!-- Modals -->
+          <!-- PPT -->
+          <div
+            class="modal fade"
+            id="bemutatoModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="bemutatoModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="bemutatoModalLabel">
+                    Bemutató | JavaScript - 1
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    src="https://drive.google.com/file/d/1Ri_vrdqOsMsInDxugp5AdEdLppjmIIje/preview"
+                    width="100%"
+                    height="1000px"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- jsHelye.html Forrás -->
+          <div
+            class="modal fade"
+            id="jsHelye_forras_Modal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="jsHelye_forras_ModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="jsHelye_forras_ModalLabel">
+                    jsHelye.html
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <pre>
                                 <code id="jsHelye_forras_code" class="html">
                                     Bocsi, de nem tudtam betölteni a fájlt. :/
                                 </code>
                             </pre>
-                        </div>
-                    </div>
                 </div>
+              </div>
             </div>
+          </div>
 
-            <!-- jsHelye.html Élőben -->
-            <div class="modal fade" id="jsHelye_elo_Modal" tabindex="-1" role="dialog" aria-labelledby="jsHelye_elo_ModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="jsHelye_elo_ModalLabel">JavaScript Helye</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <iframe id="jsHely_elo" title="JavaScript Helye Élő"></iframe>
-                        </div>
-                    </div>
+          <!-- jsHelye.html Élőben -->
+          <div
+            class="modal fade"
+            id="jsHelye_elo_Modal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="jsHelye_elo_ModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="jsHelye_elo_ModalLabel">
+                    JavaScript Helye
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
                 </div>
+                <div class="modal-body">
+                  <iframe id="jsHely_elo" title="JavaScript Helye Élő"></iframe>
+                </div>
+              </div>
             </div>
+          </div>
 
-            <!-- Fill Content -->
-            <script>
-                var url = "https://raw.githubusercontent.com/sens1tiv/2-14-F/master/Webfejlesztes/Tananyagok/Tananyag_02/jsHelye.html";
-                var storeText;
+          <!-- Fill Content -->
+          <script>
+            var url =
+              "https://raw.githubusercontent.com/sens1tiv/2-14-F/master/Webfejlesztes/Tananyagok/Tananyag_02/jsHelye.html";
+            var storeText;
 
-                fetch(url)
-                    .then(function(response) {
-                        response.text().then(function(text) {
-                        storedText = text;
-                        done();
-                        });
-                    });
+            fetch(url).then(function (response) {
+              response.text().then(function (text) {
+                storedText = text;
+                done();
+              });
+            });
 
-                    function done() {
-                        document.getElementById('jsHelye_forras_code').textContent = storedText;
+            function done() {
+              document.getElementById(
+                "jsHelye_forras_code"
+              ).textContent = storedText;
 
-                        // HL.js
-                        hljs.initHighlighting();
-                    }
-                
-                var url = "https://raw.githubusercontent.com/sens1tiv/2-14-F/master/Webfejlesztes/Tananyagok/Tananyag_02/jsHelye.html";
+              // HL.js
+              hljs.initHighlighting();
+            }
 
-            </script>
-
+            var url =
+              "https://raw.githubusercontent.com/sens1tiv/2-14-F/master/Webfejlesztes/Tananyagok/Tananyag_02/jsHelye.html";
+          </script>
         </div>
+      </div>
+      <!-- /.container -->
     </div>
-    <!-- /.container -->
-
-</div>
-<!-- /.wrap -->
-
-
-
+    <!-- /.wrap -->
 
     <!-- Footer -->
     <footer class="py-4 bg-dark footer">
-        <div class="container">
-            <p class="m-1 text-center text-white">&copy; Nagy Ábel <span id="c_year"></span></p>
+      <div class="container">
+        <p class="m-1 text-center text-white">
+          &copy; Nagy Ábel <span id="c_year"></span>
+        </p>
 
-            <script>
-                document.getElementById("c_year").innerHTML = new Date().getFullYear();
-            </script>
-
-        </div>
-        <!-- /.container -->
+        <script>
+          document.getElementById(
+            "c_year"
+          ).innerHTML = new Date().getFullYear();
+        </script>
+      </div>
+      <!-- /.container -->
     </footer>
-
-
-
-
 
     <!-- Bootstrap core JavaScript -->
     <script src="../../../../js/jquery/jquery.min.js"></script>
     <script src="../../../../js/bootstrap.bundle.min.js"></script>
-
-
-
-</body>
+  </body>
 </html>
