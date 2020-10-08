@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Óra 05</title>
+
+    <link rel="stylesheet" href="../../css/bootstrap.css" />
+
+    <script src="bevitel.js"></script>
+  </head>
+  <body>
+    <div class="container border bg-light my-5">
+        <h1 class="text-primary m-5">Üdv!</h1>
+      <div class="row justify-content-center">
+
+        <div class="col-5 m-5">
+          <form>
+            <div class="form-group">
+              <label for="nev">Név:</label>
+              <input class="form-control" type="text" id="nev" />
+            </div>
+            <div class="form-group">
+              <label for="number">Születési év:</label>
+              <input class="form-control" type="number" id="ev"></input>
+            </div>
+            <div>
+              <input id="gomb" class="btn btn-primary" type="button" value="Bevitel" />
+            </div>
+          </form>
+        </div>
+        <div class="col-5 m-5">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th class="">Név</th>
+                        <th>Kor</th>
+                    </tr>
+                </thead>
+                <tbody id="tblBody">
+
+                </tbody>
+            </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

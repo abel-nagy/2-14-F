@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elemek</title>
+
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+
+    <script src="htmlElemek.js"></script>
+
+</head>
+<body>
+
+    <div class="container border bg-light my-5">
+       <div class="row justify-content-center">
+            <div class="col-6 m-5">
+                <form>
+                    <div class="form-group">
+                        <label for="nev">Írd be a neved:</label>
+                        <input class="form-control" type="text" id="nev">
+                    </div>
+                    <div class="form-group">
+                        <p class="font-weight-bold">Milyen közlekedési eszközt használsz a leggyakrabban?</p>
+                        <label for="">Auto</label>
+                        <input class="form-check-inline" type="checkbox" name="jarmu" value="auto" id="">
+                        
+                        <label for="">Vonat</label>
+                        <input class="form-check-inline" type="checkbox" name="jarmu" value="vonat" id="">
+                
+                        <label for="">Bicikli</label>
+                        <input class="form-check-inline" type="checkbox" name="jarmu" value="bicikli" id="">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-check-label" for="">Hány eleme van egy hasábnak?</label>
+                        6 <input type="radio" name="hasab" id="" value="6">
+                        8 <input type="radio" name="hasab" id="" value="8">
+                        12 <input type="radio" name="hasab" id="" value="12">
+                    </div>
+                
+                    <div class="form-group">
+                        <select class="custom-select" name="" id="evszak">
+                            <option value="nincs">valassz egy evszakot</option>
+                            <option value="tel">Tél</option>
+                            <option value="tavasz">Tavasz</option>
+                            <option value="nyar">Nyár</option>
+                            <option value="osz">Ősz</option>
+                        </select>
+                    </div>
+                
+                    <input class="btn btn-primary" type="button" value="ellenorzes" id="gomb">
+                
+                </form>
+            </div>
+       </div>
+
+    <div id="tarolo"></div>
+    
+</body>
+</html>
