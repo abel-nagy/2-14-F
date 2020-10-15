@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hol a piros?</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.css" rel="stylesheet">
+    <script src="piros.js"></script>
+
+</head>
+<style>
+    .alap {
+        border: 1px solid;
+        height: 60px;
+        min-width: 60px;
+    }
+
+    .fekete {
+        background-color: black;
+    }
+
+    .piros {
+        background-color: red;
+    }
+</style>
+
+<body>
+    <form>
+        <div class="form-group">
+            <input id="uj" type="button" value="Új játék" class="btn btn-success">
+        </div>
+        <div class="form-group">
+            <label for="meret">Adj meg egy szamot 1 es 20 között:</label>
+            <input type="text" id="meret" />
+        </div>
+        <div class="form-group">
+            <p id="tarolo"></p>
+        </div>
+    </form>
+
+    <table id="racs"></table>
+</body>
+
+</html>
