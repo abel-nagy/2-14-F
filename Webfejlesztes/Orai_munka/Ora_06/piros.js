@@ -9,6 +9,7 @@ function init() {
 var randX;
 var randY;
 var szamlalo = 0;
+var gameOver = false;
 
 function rajzol() {
     torol();
@@ -37,12 +38,14 @@ function rajzol() {
 
 function torol() {
     szamlalo = 0;
+    gameOver = false;
     let csomopont = document.getElementById("racs");
 
     while (csomopont.hasChildNodes()) {
         csomopont.removeChild(csomopont.lastChild);
     }
     document.getElementById("tarolo").innerHTML = "";
+    document.getElementById("racs").addEventListener("click", pozicio);
 }
 
 function pozicio(e) {
@@ -51,10 +54,11 @@ function pozicio(e) {
         var y = e.target.parentNode.rowIndex;
         console.log("[" + x + ", " + y + "]");
         (x == randX && y == randY) ? e.target.classList.add("bg-danger"): e.target.classList.add("bg-dark");
-        if(x != randX || y != randY) {
+        if(!gameOver && (x != randX || y != randY)) {
             ++szamlalo;
         } else {
             document.getElementById("tarolo").innerHTML = "A probalkozások száma: " + szamlalo;
+            document.getElementById("racs").removeEventListener("click", pozicio);
         }
     }
 }
