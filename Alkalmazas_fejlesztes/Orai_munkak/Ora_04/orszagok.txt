@@ -1,0 +1,195 @@
+név;földrész;fõváros;terület;lakosság
+Afganisztán;Ázsia;Kabul;647500;31100000
+Albánia;Európa;Tirana;28748;3600000
+Algéria;Afrika;Algír;2381741;32900000
+Amerikai Egyesült Államok;Amerika;Washington;9629091;298400000
+Andorra;Európa;Andorra la Vella;468;71000
+Angola;Afrika;Luanda;1246700;12100000
+Antigua és Barbuda;Amerika;St. John's;443;69000
+Argentína;Amerika;Buenos Aires;2766890;39900000
+Ausztrália;Ausztrália;Canberra;7617931;20300000
+Ausztria;Európa;Bécs;83858;8200000
+Azerbajdzsán;Ázsia;Bak?;86600;8000000
+Bahama-szigetek;Amerika;Nassau;13940;300000
+Bahrein;Ázsia;Manáma;665;700000
+Banglades;Ázsia;Dhaka;144000;147400000
+Barbados;Amerika;Bridgetown;431;280000
+Belgium;Európa;Brüsszel;30510;10400000
+Belize;Amerika;Belmopan;22966;290000
+Benin;Afrika;Porto Novo;112622;7900000
+Bhután;Ázsia;Timpu;47000;2300000
+Bissau-Guinea;Afrika;Bissau;36125;1400000
+Bolívia;Amerika;La Paz;1098580;9000000
+Bosznia és Hercegovina;Európa;Szarajevó;51129;4500000
+Botswana;Afrika;Gaborone;600370;1600000
+Brazília;Amerika;Brasília;8511965;188100000
+Brunei;Ázsia;Bandar Seri Begawan;5770;380000
+Bulgária;Európa;Szófia;110910;7400000
+Burkina Faso;Afrika;Ouagadougou;274122;13900000
+Burundi;Afrika;Bujumbura;27830;8100000
+Chile;Amerika;Santiago de Chile;756950;16100000
+Ciprus;Ázsia;Nicosia;9250;780000
+Comore-szigetek;Afrika;Moroni;2170;700000
+Costa Rica;Amerika;San José;51100;4100000
+Csád;Afrika;N’Djamena;1284000;9900000
+Csehország;Európa;Prága;78866;10200000
+Dánia;Európa;Koppenhága;43094;5500000
+Dél-afrikai Köztársaság;Afrika;Pretoria;1219912;44200000
+Dél-Korea;Ázsia;Szöul;98480;48800000
+Dominikai Közösség;Amerika;Roseau;754;69000
+Dominikai Köztársaság;Amerika;Santo Domingo;48730;9200000
+Dzsibuti;Afrika;Dzsibuti;23000;490000
+Ecuador;Amerika;Quito;283560;13500000
+Egyenlítõi-Guinea;Afrika;Malabo;28051;540000
+Egyesült Arab Emirátusok;Ázsia;Abú-Dzabi;82880;2600000
+Egyesült Királyság;Európa;London;244820;60600000
+Egyiptom;Afrika;Kairó;1001450;78900000
+Elefántcsontpart;Afrika;Yamoussoukro;322460;17700000
+Eritrea;Afrika;Aszmara;121320;4800000
+Észak-Korea;Ázsia;Phenjan;120540;23100000
+Észtország;Európa;Tallin;45226;1300000
+Etiópia;Afrika;Addisz Abeba;1127127;74800000
+Fehéroroszország;Európa;Minszk;207600;10300000
+Fidzsi-szigetek;Ausztrália;Suva;18270;900000
+Finnország;Európa;Helsinki;337030;5200000
+Franciaország;Európa;Párizs;547030;60900000
+Fülöp-szigetek;Ázsia;Manila;300000;89500000
+Gabon;Afrika;Libreville;267667;1400000
+Gambia;Afrika;Banjul;11295;1600000
+Ghána;Afrika;Accra;239460;22400000
+Görögország;Európa;Athén;131940;10700000
+Grenada;Amerika;St. George's;344;90000
+Grúzia;Ázsia;Tbiliszi;69700;4700000
+Guatemala;Amerika;Guatemala City;108890;12300000
+Guinea;Afrika;Conakry;245857;9700000
+Guyana;Amerika;Georgetown;214970;770000
+Haiti;Amerika;Port-au-Prince;27750;8300000
+Hollandia;Európa;Amsterdam;41526;16500000
+Honduras;Amerika;Tegucigalpa;112090;7300000
+Horvátország;Európa;Zágráb;56542;4500000
+India;Ázsia;Újdelhi-Delhi;3287590;1095400000
+Indonézia;Ázsia;Jakarta;1919440;245500000
+Irak;Ázsia;Bagdad;437072;26800000
+Irán;Ázsia;Teherán;1600000;68700000
+Írország;Európa;Dublin;70280;4100000
+Izland;Európa;Reykjavík;103000;300000
+Izrael;Ázsia;Jeruzsálem;20770;6400000
+Jamaica;Amerika;Kingston;10991;2800000
+Japán;Ázsia;Tokió;377835;127500000
+Jemen;Ázsia;Szanaa;527970;21500000
+Jordánia;Ázsia;Ammán;92300;5900000
+Kambodzsa;Ázsia;Phnompen;181040;13900000
+Kamerun;Afrika;Yaoundé;475440;17300000
+Kanada;Amerika;Ottawa;9984670;33100000
+Katar;Ázsia;Doha;11437;890000
+Kazahsztán;Ázsia;Asztana;2717300;15200000
+Kelet-Timor;Ázsia;Dili;15007;1100000
+Kelet-Timor;Ausztrália;Dili;15007;1040880
+Kenya;Afrika;Nairobi;582646;34700000
+Kína;Ázsia;Peking;9597077;1314000000
+Kirgizisztán;Ázsia;Biskek;198500;5200000
+Kiribati;Ausztrália;South Tarawa;717;110000
+Kolumbia;Amerika;Bogotá;1138910;43600000
+Kongói Demokratikus Köztársaság;Afrika;Kinshasa;2345409;62700000
+Kongói Köztársaság;Afrika;Brazzaville;342000;3700000
+Közép-afrikai Köztársaság;Afrika;Bangui;622984;4300000
+Kuba;Amerika;Havanna;110860;11400000
+Kuvait;Ázsia;Kuvaitváros;17820;2400000
+Laosz;Ázsia;Vientián;236800;6400000
+Lengyelország;Európa;Varsó;312685;3850000
+Lesotho;Afrika;Maseru;30355;2000000
+Lettország;Európa;Riga;64589;2300000
+Libanon;Ázsia;Bejrút;10400;3900000
+Libéria;Afrika;Monrovia;111369;3000000
+Líbia;Afrika;Tripoli;1759540;5900000
+Liechtenstein;Európa;Vaduz;160;34000
+Litvánia;Európa;Vilnius;65200;3600000
+Luxemburg;Európa;Luxembourg;35620;470000
+Macedónia;Európa;Szkopje;25333;2100000
+Madagaszkár;Afrika;Antananarivo;587041;18600000
+Magyarország;Európa;Budapest;93030;10100000
+Malajzia;Ázsia;Kuala Lumpur;329750;24400000
+Malawi;Afrika;Lilongwe;118484;13000000
+Maldív-szigetek;Ázsia;Malé;300;360000
+Mali;Afrika;Bamako;1240142;11700000
+Málta;Európa;Valletta;316;400000
+Marokkó;Afrika;Rabat;446550;33200000
+Marshall-szigetek;Ausztrália;Majuro;181;60000
+Mauritánia;Afrika;Nouakchott;1030700;3200000
+Mauritius;Afrika;Port Louis;2045;1800000
+Mexikó;Amerika;Mexikóváros;1972550;107000000
+Mianmar;Ázsia;Yangôn;678500;47400000
+Mikronézia;Ausztrália;Palikir;717;108000
+Moldova;Európa;Kisinyov;33843;4500000
+Monaco;Európa;;2;33000
+Mongólia;Ázsia;Ulánbátor;1565000;2800000
+Montenegró;Európa;Podgorica;13812;616258
+Mozambik;Afrika;Maputo;801590;19700000
+Namíbia;Afrika;Windhoek;825418;2000000
+Nauru;Ausztrália;Yaren;21;13000
+Németország;Európa;Berlin;357021;82400000
+Nepál;Ázsia;Katmandu;140800;28300000
+Nicaragua;Amerika;Managua;129494;5600000
+Niger;Afrika;Niamey;1267000;12500000
+Nigéria;Afrika;Abuja;923768;131900000
+Norvégia;Európa;Oslo;324220;4600000
+Olaszország;Európa;Róma;301230;58100000
+Omán;Ázsia;Maszkat;212460;3100000
+Oroszország;Ázsia;Moszkva;13083100;38600000
+Oroszország;Európa;Moszkva;3960000;104300000
+Örményország;Ázsia;Jereván;29800;3000000
+Pakisztán;Ázsia;Iszlámábád-Rawalpindi;803940;165800000
+Palau;Ausztrália;Koror;458;21000
+Panama;Amerika;Panama City;78200;3200000
+Pápua Új-Guinea;Ausztrália;Port Moresby;451709;5700000
+Paraguay;Amerika;Asunción;406750;6500000
+Peru;Amerika;Lima;1285220;28300000
+Portugália;Európa;Lisszabon;92391;10600000
+Románia;Európa;Bukarest;238391;22300000
+Ruanda;Afrika;Kigali;26338;8600000
+Saint Kitts és Nevis;Amerika;Basseterre;261;39000
+Saint Lucia;Amerika;Castries;616;170000
+Saint Vincent;Amerika;Kingstown;389;120000
+Salamon-szigetek;Ausztrália;Honiara;27539;550000
+Salvador;Amerika;San Salvador;21040;6800000
+San Marino;Európa;San Marino;61;29000
+Sao Tomé és Príncipe;Afrika;Sao Tomé;1001;190000
+Seychelle-szigetek;Afrika;Victoria;376;81000
+Sierra Leone;Afrika;Freetown;71740;6000000
+Spanyolország;Európa;Madrid;504782;40400000
+Srí Lanka;Ázsia;Colombo;65610;20200000
+Suriname;Amerika;Paramaribo;163270;440000
+Svájc;Európa;Bern;41290;7500000
+Svédország;Európa;Stockholm;449964;9000000
+Szamoa;Ausztrália;Apia;2849;177000
+Szaúd-Arábia;Ázsia;Rijád;1960582;27000000
+Szenegál;Afrika;Dakar;196190;11100000
+Szerbia;Európa;Belgrád;88361;9400000
+Szingapúr;Ázsia;Szingapúr;693;4500000
+Szíria;Ázsia;Damaszkusz;185180;18900000
+Szlovákia;Európa;Pozsony;48845;5400000
+Szlovénia;Európa;Ljubljana;20273;2000000
+Szomália;Afrika;Mogadishu;637657;8900000
+Szudán;Afrika;Kartúm;2505813;41200000
+Szváziföld;Afrika;Mbabane;17363;1100000
+Tadzsikisztán;Ázsia;Dusanbe;143100;7300000
+Tanzánia;Afrika;Dodoma;945087;37400000
+Thaiföld;Ázsia;Bangkok;514000;64600000
+Togo;Afrika;Lomé;56785;5500000
+Tonga;Ausztrália;Nuku'alofa;717;110000
+Törökország;Ázsia;Ankara;780580;70400000
+Trinidad és Tobago;Amerika;Port of Spain;5128;1100000
+Tunézia;Afrika;Tunisz;163610;10200000
+Tuvalu;Ausztrália;Vaiaku;26;12000
+Türkmenisztán;Ázsia;Asgabat;488100;5000000
+Uganda;Afrika;Kampala;236040;28200000
+Új-Zéland;Ausztrália;Wellington;268671;4100000
+Ukrajna;Európa;Kijev;603700;46700000
+Uruguay;Amerika;Montevideo;176220;3400000
+Üzbegisztán;Ázsia;Taskent;447400;27300000
+Vanuatu;Ausztrália;Port Vila;14760;210000
+Venezuela;Amerika;Caracas;912050;25700000
+Vietnam;Ázsia;Hanoi;329560;84400000
+Zambia;Afrika;Lusaka;752614;11500000
+Zimbabwe;Afrika;Harare;390580;12200000
+Zöld-foki-szigetek;Afrika;Praia;4033;420000
